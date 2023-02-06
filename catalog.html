@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="assets/css/app.min.css" />
+  </head>
+  <body class="page" >
+    <header class="header">
+  <div class="container">
+    <div class="wrapper">
+      <div class="header__row">
+        <a href="./index.html" class="header__logo">
+          <img
+            class="header__logo-img"
+            src="./assets/img/header/logo.png"
+            alt="logo"
+          />
+        </a>
+        <nav class="nav">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="./catalog.html" class="header__menu-link">Каталог товаров</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Кухонные модули</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="./decors.html" class="header__menu-link">Декоры</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="./photo.html" class="header__menu-link">Фотопечать</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Готовые решения</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="./contacts.html" class="header__menu-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header__phone-info"> +7 (3466) 68-15-98 </a>
+        <button class="header__btn modal-btn" data-modal-path="back-call">
+          Заказать звонок
+        </button>
+      
+        <div class="burger">
+          <span class="burger__line burger__line--1"></span>
+          <span class="burger__line burger__line--2"></span>
+          <span class="burger__line burger__line--3"></span>
+          <span class="burger__line burger__line--4"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modals">
+    <div class="modal-overlay">
+      <div class="modal modal-back-call" data-modal-target="back-call">
+        <strong class="modal-back-call__title">Заказать звонок</strong>
+        <p class="modal-back-call__description">
+          Вы можете задать любой интересующий Вас вопрос, уточнить цены, вызвать
+          замерщика, проконсультироваться о продукции.
+        </p>
+        <form class="modal-back-call__form">
+          <input placeholder="Ники" type="text" />
+          <input placeholder="+7 (921) 591 84 24" type="tel" />
+        </form>
+        <button type="submit">Позвоните мне</button>
+        <p class="modal-back-call__confidentiality">
+          Нажимая кнопку “Позвоните мне”, вы соглашаетесь с условиями Политики
+          конфиденциальности
+        </p>
+        <img
+          class="modal-close"
+          src="./assets/img/header/modal-close.svg"
+          alt="close"
+        />
+      </div>
+
+   
+    </div>
+  </div>
+</header>
+
+
+    <main>
+<section class="catalog">
+  <div class="container">
+    <h2 class="catalog__title title">Каталог товаров</h2>
+    <ul class="catalog__card-list">
+      <li class="catalog__card">
+        <img
+          src="./assets/img/popular/img-01.jpg"
+          alt=""
+          class="catalog__card-img"
+        />
+        <div class="catalog__card-content">
+          <h3 class="catalog__card-name">
+            Кухонный гарнитур “ЛОФТ”. Длина 2 метра.
+          </h3>
+          <span class="catalog__card-old-price">19 899 &#8381;</span>
+          <span class="catalog__card-new-price">14 900 &#8381;</span>
+          <a class="catalog__card-btn">
+            <svg class="catalog__card-svg">
+              <use href="./assets/img/sprite.svg#popular-plus"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+
+      <li class="catalog__card">
+        <img
+          src="./assets/img/popular/img-02.jpg"
+          alt=""
+          class="catalog__card-img"
+        />
+        <div class="catalog__card-content">
+          <h3 class="catalog__card-name">
+            Кухонный гарнитур “ЛОФТ”. Длина 2 метра.
+          </h3>
+          <span class="catalog__card-old-price">19 899 &#8381;</span>
+          <span class="catalog__card-new-price">14 900 &#8381;</span>
+          <a class="catalog__card-btn">
+            <svg class="catalog__card-svg">
+              <use href="./assets/img/sprite.svg#popular-plus"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+
+      <li class="catalog__card">
+        <img
+          src="./assets/img/popular/img-03.jpg"
+          alt=""
+          class="catalog__card-img"
+        />
+        <div class="catalog__card-content">
+          <h3 class="catalog__card-name">
+            Кухонный гарнитур “ЛОФТ”. Длина 2 метра.
+          </h3>
+          <span class="catalog__card-old-price">19 899 &#8381;</span>
+          <span class="catalog__card-new-price">14 900 &#8381;</span>
+          <a class="catalog__card-btn">
+            <svg class="catalog__card-svg">
+              <use href="./assets/img/sprite.svg#popular-plus"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+
+      <li class="catalog__card">
+        <img
+          src="./assets/img/popular/img-04.jpg"
+          alt=""
+          class="catalog__card-img"
+        />
+        <div class="catalog__card-content">
+          <h3 class="catalog__card-name">
+            Кухонный гарнитур “ЛОФТ”. Длина 2 метра.
+          </h3>
+          <span class="catalog__card-old-price">19 899 &#8381;</span>
+          <span class="catalog__card-new-price">14 900 &#8381;</span>
+          <a class="catalog__card-btn">
+            <svg class="catalog__card-svg">
+              <use href="./assets/img/sprite.svg#popular-plus"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+
+      <li class="catalog__card">
+        <img
+          src="./assets/img/popular/img-05.jpg"
+          alt=""
+          class="catalog__card-img"
+        />
+        <div class="catalog__card-content">
+          <h3 class="catalog__card-name">
+            Кухонный гарнитур “ЛОФТ”. Длина 2 метра.
+          </h3>
+          <span class="catalog__card-old-price">19 899 &#8381;</span>
+          <span class="catalog__card-new-price">14 900 &#8381;</span>
+          <a class="catalog__card-btn">
+            <svg class="catalog__card-svg">
+              <use href="./assets/img/sprite.svg#popular-plus"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+
+      <li class="catalog__card">
+        <img
+          src="./assets/img/popular/img-06.jpg"
+          alt=""
+          class="catalog__card-img"
+        />
+        <div class="catalog__card-content">
+          <h3 class="catalog__card-name">
+            Кухонный гарнитур “ЛОФТ”. Длина 2 метра.
+          </h3>
+          <span class="catalog__card-old-price">19 899 &#8381;</span>
+          <span class="catalog__card-new-price">14 900 &#8381;</span>
+          <a class="catalog__card-btn">
+            <svg class="catalog__card-svg">
+              <use href="./assets/img/sprite.svg#popular-plus"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+
+      <li class="catalog__card">
+        <img
+          src="./assets/img/popular/img-03.jpg"
+          alt=""
+          class="catalog__card-img"
+        />
+        <div class="catalog__card-content">
+          <h3 class="catalog__card-name">
+            Кухонный гарнитур “ЛОФТ”. Длина 2 метра.
+          </h3>
+          <span class="catalog__card-old-price">19 899 &#8381;</span>
+          <span class="catalog__card-new-price">14 900 &#8381;</span>
+          <a class="catalog__card-btn">
+            <svg class="catalog__card-svg">
+              <use href="./assets/img/sprite.svg#popular-plus"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+
+      <li class="catalog__card">
+        <img
+          src="./assets/img/popular/img-04.jpg"
+          alt=""
+          class="catalog__card-img"
+        />
+        <div class="catalog__card-content">
+          <h3 class="catalog__card-name">
+            Кухонный гарнитур “ЛОФТ”. Длина 2 метра.
+          </h3>
+          <span class="catalog__card-old-price">19 899 &#8381;</span>
+          <span class="catalog__card-new-price">14 900 &#8381;</span>
+          <a class="catalog__card-btn">
+            <svg class="catalog__card-svg">
+              <use href="./assets/img/sprite.svg#popular-plus"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+
+      <li class="catalog__card">
+        <img
+          src="./assets/img/popular/img-01.jpg"
+          alt=""
+          class="catalog__card-img"
+        />
+        <div class="catalog__card-content">
+          <h3 class="catalog__card-name">
+            Кухонный гарнитур “ЛОФТ”. Длина 2 метра.
+          </h3>
+          <span class="catalog__card-old-price">19 899 &#8381;</span>
+          <span class="catalog__card-new-price">14 900 &#8381;</span>
+          <a class="catalog__card-btn">
+            <svg class="catalog__card-svg">
+              <use href="./assets/img/sprite.svg#popular-plus"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+
+      <li class="catalog__card">
+        <img
+          src="./assets/img/popular/img-03.jpg"
+          alt=""
+          class="catalog__card-img"
+        />
+        <div class="catalog__card-content">
+          <h3 class="catalog__card-name">
+            Кухонный гарнитур “ЛОФТ”. Длина 2 метра.
+          </h3>
+          <span class="catalog__card-old-price">19 899 &#8381;</span>
+          <span class="catalog__card-new-price">14 900 &#8381;</span>
+          <a class="catalog__card-btn">
+            <svg class="catalog__card-svg">
+              <use href="./assets/img/sprite.svg#popular-plus"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+
+      <li class="catalog__card">
+        <img
+          src="./assets/img/popular/img-02.jpg"
+          alt=""
+          class="catalog__card-img"
+        />
+        <div class="catalog__card-content">
+          <h3 class="catalog__card-name">
+            Кухонный гарнитур “ЛОФТ”. Длина 2 метра.
+          </h3>
+          <span class="catalog__card-old-price">19 899 &#8381;</span>
+          <span class="catalog__card-new-price">14 900 &#8381;</span>
+          <a class="catalog__card-btn">
+            <svg class="catalog__card-svg">
+              <use href="./assets/img/sprite.svg#popular-plus"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+    </ul>
+    <button type="text" class="catalog__show-more">показать еще</button>
+  </div>
+</section>
+
+<section class="consultation">
+  <div class="container">
+    <div class="consultation__row">
+      <div class="consultation__content">
+        <h2 class="consultation__title">
+          <span>проконсультируем</span> по любым вопросам
+        </h2>
+        <form class="consultation__form" action="">
+          <input
+            class="consultation__input"
+            type="text"
+            placeholder="Ваше имя"
+          />
+          <input
+            class="consultation__input"
+            type="tel"
+            placeholder="+7 921-591-84-24"
+          />
+          <textarea
+            class="consultation__textarea"
+            placeholder="Кратко опишите Ваш вопрос"
+          ></textarea>
+        </form>
+        <button class="consultation__btn">Получить консультацию</button>
+        <span class="consultation__btn-text">
+          Нажимая кнопку "Получить консультацию" вы даете согласие на обработку
+          персональных данных в соответствии с политикой конфиденциальности
+        </span>
+      </div>
+      <img
+        src="./assets/img/consultation/bg.png"
+        alt=""
+        class="consultation__img"
+      />
+    </div>
+  </div>
+</section>
+
+
+</main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__row">
+      <div class="footer__column">
+        <a href="" class="footer__logo">
+          <img
+            src="./assets/img/footer/logo.png"
+            alt=""
+            class="footer__logo-img"
+          />
+        </a>
+        <p class="footer__address">
+          г. Нижневартовск, ул. Индустриальная, д.7 стр. 1 ТЦ “ВДНХ”, 2 этаж,
+          бутик № 20а
+        </p>
+      </div>
+
+      <div class="footer__column">
+        <strong>Разделы:</strong>
+        <ul class="footer__menu-list">
+          <li class="footer__menu-item">
+            <a href="" class="footer__link">Каталог товаров</a>
+          </li>
+
+          <li class="footer__menu-item">
+            <a href="" class="footer__link">Кухонные модули</a>
+          </li>
+
+          <li class="footer__menu-item">
+            <a href="" class="footer__link">Декоры МДФ/Лдсп</a>
+          </li>
+
+          <li class="footer__menu-item">
+            <a href="" class="footer__link">Готовые решения</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__column">
+        <strong>Контакты:</strong>
+        <ul class="footer__contacts-list">
+          <li class="footer__contacts-item">
+            <img
+              src="./assets/img/footer/email.png"
+              alt=""
+              class="footer__contacts-img"
+            />
+            <a href="" class="footer__link">uhninv@mail.ru</a>
+          </li>
+
+          <li class="footer__contacts-item">
+            <img
+              src="./assets/img/footer/phone.png"
+              alt=""
+              class="footer__contacts-img"
+            />
+            <a href="" class="footer__link">8 (3466) 68-20-15</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <img
+              src="./assets/img/footer/vk.png"
+              alt=""
+              class="footer__social-img"
+            />
+            <a href="" class="footer__link">vk.com/kuhninv</a>
+          </li>
+          <li class="footer__social-item">
+            <img
+              src="./assets/img/footer/od.png"
+              alt=""
+              class="footer__social-img"
+            />
+            <a href="" class="footer__link">ok.ru/kuhninv</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="assets/js/app.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ada86d86-e229-481b-ba6a-f2c077a2d710&lang=ru_RU"></script>
+    <script type="text/javascript">
+      
+const mapWrapper = document.querySelector("#map");
+      const init = () => {
+        let map = new ymaps.Map(mapWrapper, {
+          center: [59.94008206417637, 30.312813999999978],
+          zoom: 17,
+        });
+      }
+      if (mapWrapper){
+
+        ymaps.ready(init);
+      }
+    </script>
+  </body>
+</html>
